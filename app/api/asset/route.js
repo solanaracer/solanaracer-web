@@ -9,8 +9,6 @@ import symbols from "@/generation/symbols.json";
 // TODO: Confirm edge works with sharp
 // export const runtime = "edge";
 
-// http://localhost:3000/api/asset?symbol=SCRI&placement=logo&imgUrl=https%3A%2F%2Fnftstorage.link%2Fipfs%2Fbafkreieizaoip6f5yvjatbwydzlyaztrata2baq4hroicm6bblkdsx2lom
-
 export const GET = async (request) => {
   try {
     const { searchParams } = request.nextUrl;
@@ -100,11 +98,6 @@ export const GET = async (request) => {
         width: newWidth,
         height: newHeight,
         type: "image/png",
-        // headers: {
-        //   "Access-Control-Allow-Origin": "*",
-        //   "Access-Control-Allow-Methods": "GET, OPTIONS",
-        //   "Access-Control-Allow-Headers": "Content-Type",
-        // },
       },
     );
   } catch (e) {

@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:json/recommended-legacy"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-unused-vars": "warn",
+    "no-case-declarations": "warn",
+    "curly":"warn",
+    "prefer-const": "warn"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2020": true
+  },
+  "ignorePatterns": ["**/generation/**/*"],
+  "globals": {
+    "globalThis": false
+  }
+}

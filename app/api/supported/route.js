@@ -6,7 +6,6 @@ import symbols from "@/generation/symbols.json";
 
 // export const runtime = "edge";
 
-// http://localhost:3000/api/supported?placement=logo
 export const GET = async (request) => {
   try {
     const { searchParams } = request.nextUrl;
