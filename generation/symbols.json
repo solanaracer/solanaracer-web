@@ -1,0 +1,31 @@
+{
+  "MGCK": {
+    "symbol": "MGCK",
+    "updatedAt": 0,
+    "width": 512,
+    "height": 512,
+    "placements": [
+      "logo"
+    ]
+  },
+  "FRG": {
+    "symbol": "FRG",
+    "testMint": "3NVydEmKGPGBEaUdoHYjZZK6GGtzSSTNi7zpToyC8dWS",
+    "updatedAt": "2024-08-02T22:56:03.744Z",
+    "width": 3000,
+    "height": 3000,
+    "placements": [
+      "logo"
+    ]
+  },
+  "SMB": {
+    "symbol": "SMB",
+    "testMint": "BUzRgZi3ehVEWxoVCuPfjkT1c2Ru471tdtMtj6vM8Dgw",
+    "updatedAt": "2024-08-02T22:58:37.903Z",
+    "width": 384,
+    "height": 384,
+    "placements": [
+      "logo"
+    ]
+  }
+}
