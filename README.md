@@ -78,5 +78,5 @@ After this, the api endpoint `/api/asset?symbol=SCRI...` will be available for t
 
 ## Game Integration
 
-See the game code `Assets/Scripts/Solana/*` for an example integration using these endpoints along side the Solana unity SDK to safely render NFTs in your game.
+See the game code `Assets/Scripts/Solana/*` for an example integration using these endpoints along side the Solana unity SDK to safely render NFTs in your game. You can find the repository here https://github.com/solanaracer/solanaracer-unity 
 
